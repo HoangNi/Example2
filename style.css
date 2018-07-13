@@ -116,36 +116,34 @@
 
 #service{
 	width: 100%;
-	height: 110px;
-	margin: auto;
-}
-.container{
-	padding: 5px;
+	margin: 10px 60px;
 }
 
-.service_block{
-    width: 300px;
-	height: 110px;
-	text-align:center;
+#service ul li {
+	text-align: center;
+	width: 300px;
 	display: inline-table;
+	margin-right: 120px;
+	padding: 10px;
+
+}
+#service .picture{
+	margin: auto;
+	width: 70px;
+	height: 70px;
+}
+
+#service ul li h1{
+	color:#111111;
+	margin-top: 5px;
+	font-size: 20px;
+}
+	
+#service ul li p{
+	color:#888888;
 	margin-top: 10px;
 }
 
-.picture{
-	margin: auto;
-	width:70px;
-	height:70px;
-	margin-left: 60px;
-}
-
-.service_block h1{
-	color:#111111;
-}
-	
-.service_block p{
-	color:#888888;
-	margin-top: 40px;
-}
 	
 
 #footer {
