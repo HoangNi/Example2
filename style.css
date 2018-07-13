@@ -1,0 +1,146 @@
+
+#header_outer{
+	background:#708090;
+	padding:5px 0px 10px 0;
+	height: 40px;
+	border-bottom: 2px solid #e8491d;
+}
+
+.brand{
+	float:left;
+}
+.brand h1{
+	font-size: 22px;
+	color: #fff;
+	margin:10px 10px 10px 100px ;
+}
+.brand h1 a{
+	font-size: 22px;
+	color: #e8491d;
+	text-decoration:none;
+}
+
+.nav{
+	float:right;
+}
+.nav ul{
+	list-style:none;
+	padding:0px;
+}
+
+.nav ul li{
+	display:inline-block;
+	margin:0 18px;
+}
+	
+.nav ul li:first-child{
+	/*margin:0px;*/
+}
+	
+.nav ul li:last-child{
+	margin:0 100px 0 0;
+}
+	
+.nav ul li a{
+	display:block;
+	font-size:13px;
+	color:#ffffff;
+	text-decoration:none;
+	text-transform:uppercase;	
+}
+#hero-image{
+	background-image: url('img/title.jpg');
+	height: 50%;
+	width: 100%;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#hero-text {
+	color: white;
+    width: 1400px;
+	height: 200px;
+	text-align: center;
+	padding-top: 90px;
+}
+#hero-text h1{
+	font-size: 40px;
+}
+
+#menusearchBox{
+	padding:5px 0px 10px 0; 
+	height: 40px;
+	background:#708090;
+}
+
+.brand2 h3{
+	font-size: 18px;
+	float: left;
+	margin-left: 100px;
+	color: #ffffff;
+}
+#searchBox {
+    float: right;
+    margin:10px 100px 10px 0px;
+}
+.text {
+    float: left;
+    width: 200px;
+    padding: 5px;
+    font-size: 15px;
+    color: #d42241;
+    
+}
+.submit {
+    float: right;
+    color: white;
+    background: #e8491d;
+    font-size: 15px;
+    margin-left: 10px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+#service{
+	width: 1200px;
+	height: 90px;
+	margin: auto;
+}
+.service_block{
+    width: 180px;
+	height: 90px;
+	display: inline-block;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+	
+.picture{
+	margin: auto;
+	width:60px;
+	height:60px;
+	margin-left: 60px;
+}
+
+.service_block h3{
+	text-align:center;
+	color:#111111;
+}
+	
+.service_block p{
+	text-align:center;
+	color:#888888;
+}
+	
+
+.footer {
+    background: #e8491d;
+	bottom: 0;
+	height: 40px;
+	width: 100%;
+	position: fixed;
+}
+.footer{
+	color: white;
+	margin-top: 10px;
+}
